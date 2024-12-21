@@ -14,7 +14,7 @@ Built as an open source example for FarcasterKit x Neynar using LiteCast
 
 1. Set up the app locally
 
--   `git clone https://github.com/vidhathat/cozy-cast.git`
+-   `git clone https://github.com/vidhathat/cozycast.git`
 -   `cd cozycast && yarn install`
 
 2. Set environment variables

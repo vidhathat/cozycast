@@ -1,0 +1,50 @@
+{
+  "cli": {
+    "version": ">= 6.1.0"
+  },
+  "build": {
+    "development": {
+      "developmentClient": true,
+      "distribution": "internal",
+      "env": {
+        "EXPO_PUBLIC_NEYNAR_API_KEY": "",
+        "EXPO_PUBLIC_NEYNAR_CLIENT_ID": "",
+        "EXPO_PUBLIC_API_URL": "https://api.farcasterkit.com",
+        "EXPO_PUBLIC_ALCHEMY_API_KEY": ""
+      }
+    },
+    "developmentIos": {
+      "developmentClient": true,
+      "distribution": "internal",
+      "env": {
+        "EXPO_PUBLIC_NEYNAR_API_KEY": "",
+        "EXPO_PUBLIC_NEYNAR_CLIENT_ID": "",
+        "EXPO_PUBLIC_API_URL": "https://api.farcasterkit.com",
+        "EXPO_PUBLIC_ALCHEMY_API_KEY": ""
+      },
+      "ios": {
+        "simulator": true
+      }
+    },
+    "preview": {
+      "distribution": "internal",
+      "env": {
+        "EXPO_PUBLIC_NEYNAR_API_KEY": "",
+        "EXPO_PUBLIC_NEYNAR_CLIENT_ID": "",
+        "EXPO_PUBLIC_API_URL": "https://api.farcasterkit.com",
+        "EXPO_PUBLIC_ALCHEMY_API_KEY": ""
+      }
+    },
+    "production": {
+      "env": {
+        "EXPO_PUBLIC_NEYNAR_API_KEY": "",
+        "EXPO_PUBLIC_NEYNAR_CLIENT_ID": "",
+        "EXPO_PUBLIC_API_URL": "https://api.farcasterkit.com",
+        "EXPO_PUBLIC_ALCHEMY_API_KEY": ""
+      }
+    }
+  },
+  "submit": {
+    "production": {}
+  }
+}

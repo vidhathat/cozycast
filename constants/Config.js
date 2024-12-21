@@ -1,0 +1,1 @@
+export const ALCHEMY_API_KEY = 'your-alchemy-api-key-here';
